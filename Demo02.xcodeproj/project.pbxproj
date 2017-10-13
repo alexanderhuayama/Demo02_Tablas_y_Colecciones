@@ -8,13 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		AC25CFBF1F914E410075E8F6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC25CFBE1F914E410075E8F6 /* AppDelegate.swift */; };
-		AC25CFC11F914E410075E8F6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC25CFC01F914E410075E8F6 /* ViewController.swift */; };
 		AC25CFC41F914E410075E8F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC25CFC21F914E410075E8F6 /* Main.storyboard */; };
 		AC25CFC71F914E410075E8F6 /* Demo02.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AC25CFC51F914E410075E8F6 /* Demo02.xcdatamodeld */; };
 		AC25CFC91F914E410075E8F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC25CFC81F914E410075E8F6 /* Assets.xcassets */; };
 		AC25CFCC1F914E410075E8F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC25CFCA1F914E410075E8F6 /* LaunchScreen.storyboard */; };
 		AC25CFD71F914E410075E8F6 /* Demo02Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC25CFD61F914E410075E8F6 /* Demo02Tests.swift */; };
 		AC25CFE21F914E410075E8F6 /* Demo02UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC25CFE11F914E410075E8F6 /* Demo02UITests.swift */; };
+		AC25CFF01F9150100075E8F6 /* DemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC25CFEF1F9150100075E8F6 /* DemoViewController.swift */; };
+		AC25CFF21F91527C0075E8F6 /* Demo2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC25CFF11F91527C0075E8F6 /* Demo2ViewController.swift */; };
+		AC25CFF41F91577B0075E8F6 /* DemoCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC25CFF31F91577B0075E8F6 /* DemoCellTableViewCell.swift */; };
+		AC25CFFA1F915E650075E8F6 /* DemoDeTablaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC25CFF91F915E650075E8F6 /* DemoDeTablaViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +40,6 @@
 /* Begin PBXFileReference section */
 		AC25CFBB1F914E410075E8F6 /* Demo02.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo02.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC25CFBE1F914E410075E8F6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AC25CFC01F914E410075E8F6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AC25CFC31F914E410075E8F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AC25CFC61F914E410075E8F6 /* Demo02.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Demo02.xcdatamodel; sourceTree = "<group>"; };
 		AC25CFC81F914E410075E8F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +51,10 @@
 		AC25CFDD1F914E410075E8F6 /* Demo02UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Demo02UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC25CFE11F914E410075E8F6 /* Demo02UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Demo02UITests.swift; sourceTree = "<group>"; };
 		AC25CFE31F914E410075E8F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC25CFEF1F9150100075E8F6 /* DemoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoViewController.swift; sourceTree = "<group>"; };
+		AC25CFF11F91527C0075E8F6 /* Demo2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Demo2ViewController.swift; sourceTree = "<group>"; };
+		AC25CFF31F91577B0075E8F6 /* DemoCellTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoCellTableViewCell.swift; sourceTree = "<group>"; };
+		AC25CFF91F915E650075E8F6 /* DemoDeTablaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DemoDeTablaViewController.swift; path = ../DemoDeTablaViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +105,16 @@
 		AC25CFBD1F914E410075E8F6 /* Demo02 */ = {
 			isa = PBXGroup;
 			children = (
+				AC25CFF91F915E650075E8F6 /* DemoDeTablaViewController.swift */,
 				AC25CFBE1F914E410075E8F6 /* AppDelegate.swift */,
-				AC25CFC01F914E410075E8F6 /* ViewController.swift */,
 				AC25CFC21F914E410075E8F6 /* Main.storyboard */,
+				AC25CFF31F91577B0075E8F6 /* DemoCellTableViewCell.swift */,
+				AC25CFF11F91527C0075E8F6 /* Demo2ViewController.swift */,
 				AC25CFC81F914E410075E8F6 /* Assets.xcassets */,
 				AC25CFCA1F914E410075E8F6 /* LaunchScreen.storyboard */,
 				AC25CFCD1F914E410075E8F6 /* Info.plist */,
 				AC25CFC51F914E410075E8F6 /* Demo02.xcdatamodeld */,
+				AC25CFEF1F9150100075E8F6 /* DemoViewController.swift */,
 			);
 			path = Demo02;
 			sourceTree = "<group>";
@@ -262,9 +271,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC25CFF41F91577B0075E8F6 /* DemoCellTableViewCell.swift in Sources */,
+				AC25CFF01F9150100075E8F6 /* DemoViewController.swift in Sources */,
 				AC25CFC71F914E410075E8F6 /* Demo02.xcdatamodeld in Sources */,
-				AC25CFC11F914E410075E8F6 /* ViewController.swift in Sources */,
+				AC25CFF21F91527C0075E8F6 /* Demo2ViewController.swift in Sources */,
 				AC25CFBF1F914E410075E8F6 /* AppDelegate.swift in Sources */,
+				AC25CFFA1F915E650075E8F6 /* DemoDeTablaViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

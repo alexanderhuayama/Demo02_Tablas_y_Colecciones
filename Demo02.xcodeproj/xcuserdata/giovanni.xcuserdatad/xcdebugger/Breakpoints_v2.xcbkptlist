@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DemoDeTablaViewController.swift"
+            timestampString = "529621426.6406"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "11"
+            endingLineNumber = "11"
+            landmarkName = "DemoDeTablaViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Demo02.DemoDeTablaViewController.__deallocating_deinit"
+                  moduleName = "Demo02"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/giovanni/Desktop/Demo02/DemoDeTablaViewController.swift"
+                  timestampString = "529621980.372312"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Demo02.DemoDeTablaViewController.init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; Demo02.DemoDeTablaViewController"
+                  moduleName = "Demo02"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/giovanni/Desktop/Demo02/DemoDeTablaViewController.swift"
+                  timestampString = "529621980.389445"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "118">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Demo02.DemoDeTablaViewController.__allocating_init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; Demo02.DemoDeTablaViewController"
+                  moduleName = "Demo02"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/giovanni/Desktop/Demo02/DemoDeTablaViewController.swift"
+                  timestampString = "529621980.40134"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "23">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Demo02.DemoDeTablaViewController.__allocating_init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;Demo02.DemoDeTablaViewController&gt;"
+                  moduleName = "Demo02"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/giovanni/Desktop/Demo02/DemoDeTablaViewController.swift"
+                  timestampString = "529621980.412115"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Demo02.DemoDeTablaViewController.init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;Demo02.DemoDeTablaViewController&gt;"
+                  moduleName = "Demo02"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/giovanni/Desktop/Demo02/DemoDeTablaViewController.swift"
+                  timestampString = "529621980.419351"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "105">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
