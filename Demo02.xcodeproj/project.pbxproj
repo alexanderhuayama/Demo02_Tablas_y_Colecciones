@@ -18,6 +18,8 @@
 		AC25CFF21F91527C0075E8F6 /* Demo2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC25CFF11F91527C0075E8F6 /* Demo2ViewController.swift */; };
 		AC25CFF41F91577B0075E8F6 /* DemoCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC25CFF31F91577B0075E8F6 /* DemoCellTableViewCell.swift */; };
 		AC25CFFA1F915E650075E8F6 /* DemoDeTablaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC25CFF91F915E650075E8F6 /* DemoDeTablaViewController.swift */; };
+		AC25CFFC1F9167EC0075E8F6 /* ColeccionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC25CFFB1F9167EC0075E8F6 /* ColeccionViewController.swift */; };
+		AC25CFFE1F9169190075E8F6 /* CeldaCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC25CFFD1F9169190075E8F6 /* CeldaCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,8 @@
 		AC25CFF11F91527C0075E8F6 /* Demo2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Demo2ViewController.swift; sourceTree = "<group>"; };
 		AC25CFF31F91577B0075E8F6 /* DemoCellTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoCellTableViewCell.swift; sourceTree = "<group>"; };
 		AC25CFF91F915E650075E8F6 /* DemoDeTablaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DemoDeTablaViewController.swift; path = ../DemoDeTablaViewController.swift; sourceTree = "<group>"; };
+		AC25CFFB1F9167EC0075E8F6 /* ColeccionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColeccionViewController.swift; sourceTree = "<group>"; };
+		AC25CFFD1F9169190075E8F6 /* CeldaCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CeldaCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +112,8 @@
 				AC25CFF91F915E650075E8F6 /* DemoDeTablaViewController.swift */,
 				AC25CFBE1F914E410075E8F6 /* AppDelegate.swift */,
 				AC25CFC21F914E410075E8F6 /* Main.storyboard */,
+				AC25CFFD1F9169190075E8F6 /* CeldaCollectionViewCell.swift */,
+				AC25CFFB1F9167EC0075E8F6 /* ColeccionViewController.swift */,
 				AC25CFF31F91577B0075E8F6 /* DemoCellTableViewCell.swift */,
 				AC25CFF11F91527C0075E8F6 /* Demo2ViewController.swift */,
 				AC25CFC81F914E410075E8F6 /* Assets.xcassets */,
@@ -271,12 +277,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC25CFFE1F9169190075E8F6 /* CeldaCollectionViewCell.swift in Sources */,
 				AC25CFF41F91577B0075E8F6 /* DemoCellTableViewCell.swift in Sources */,
 				AC25CFF01F9150100075E8F6 /* DemoViewController.swift in Sources */,
 				AC25CFC71F914E410075E8F6 /* Demo02.xcdatamodeld in Sources */,
 				AC25CFF21F91527C0075E8F6 /* Demo2ViewController.swift in Sources */,
 				AC25CFBF1F914E410075E8F6 /* AppDelegate.swift in Sources */,
 				AC25CFFA1F915E650075E8F6 /* DemoDeTablaViewController.swift in Sources */,
+				AC25CFFC1F9167EC0075E8F6 /* ColeccionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

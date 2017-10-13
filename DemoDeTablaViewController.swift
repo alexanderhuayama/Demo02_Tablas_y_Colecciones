@@ -28,7 +28,10 @@ class DemoDeTablaViewController: UIViewController, UITableViewDelegate, UITableV
         return cell
     }
     
-    // Delegates
+    // Delegate
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        
+    }
     
     
     override func viewDidLoad() {
